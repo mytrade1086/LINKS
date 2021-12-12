@@ -1,0 +1,13 @@
+https://stackoverflow.com/questions/42847732/how-to-run-testng-xml-from-maven-command-line
+
+<suiteXmlFiles>
+    <!-- pass testng.xml files as argument from command line -->
+    <suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
+</suiteXmlFiles>
+And run your xml file as below,
+
+mvn clean test -Dsurefire.suiteXmlFiles=/path/to/testng.xml
+
+
+
+https://medium.com/@saurabhdube/running-selenium-web-tests-maven-java-with-github-actions-a20cba622af4
