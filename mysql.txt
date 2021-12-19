@@ -1,0 +1,17 @@
+
+Class.forName("")  //loads on runtime and amkes this object available to jvm
+
+Drivermanager.getConnection("")
+
+
+con.
+
+
+
+statement
+preparedstatement
+we can also pass parameters to qurry like setint
+
+executeQuery
+
+executeUpdate()

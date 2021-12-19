@@ -11,3 +11,9 @@ mvn clean test -Dsurefire.suiteXmlFiles=/path/to/testng.xml
 
 
 https://medium.com/@saurabhdube/running-selenium-web-tests-maven-java-with-github-actions-a20cba622af4
+
+java -cp C:\Users\Lenovo\Desktop\eclipse\plugins\org.testng.eclipse_6.9.12.201607091356\lib\*;C:\Test org.testng.TestNG testng.xml
+java -cp C:\Users\sumit\Downloads\eclipse-jee-2019-09-R-win32-x86_64\eclipse\plugins\org.testng_7.3.0.r202008060316\lib\*;D:\ResurrectionJavaAug\Resurrection_TESTNG org.testng.TestNG mastersuite.xml
+
+
+https://www.sqlitetutorial.net/sqlite-sample-database/ 
